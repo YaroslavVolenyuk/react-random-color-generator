@@ -10,12 +10,12 @@ export default function App() {
 
   const [inputColor, setInputColor] = useState();
   // console.log(inputColor);
-  const [inputLumi, setInputLumi] = useState();
+  // const [inputLumi, setInputLumi] = useState();
 
-  const hueColorInput = randomColor({
-    hue: inputColor,
-    luminosity: inputLumi,
-  });
+  // const hueColorInput = randomColor({
+  //   hue: inputColor,
+  //   luminosity: inputLumi,
+  // });
   // console.log('this is a', hueColorInput, 'color from user input!');
   // console.log('input color is: ', inputColor, hueColor.hue);
 
