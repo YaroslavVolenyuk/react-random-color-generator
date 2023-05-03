@@ -27,7 +27,7 @@ export default function App() {
         <p>{color}</p>
         <div className="inner">
           <button className="btn" onClick={() => setColor(randomColor)}>
-            +
+            Generate
           </button>
           <form
             className="form"
@@ -41,7 +41,7 @@ export default function App() {
                 textAlign: 'center',
                 // background: hueColorInput,
               }}
-              placeholder="your favorite color"
+              placeholder="your color"
               value={inputColor}
               onChange={(event) => {
                 setInputColor(event.currentTarget.value);

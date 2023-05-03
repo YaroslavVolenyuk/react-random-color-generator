@@ -40,7 +40,7 @@
   position: absolute;
   bottom: 0;
   width: 95%;
-  height: 25%;
+  height: 17%;
   background-color: white;
   border-radius: 10px;
   display: flex;
@@ -51,10 +51,10 @@
 
 .btn {
   background-color: pink;
-  border-radius: 60px;
+  border-radius: 10px;
   border: transparent;
   height: 50px;
-  width: 50px;
+  width: 75px;
   text-size-adjust: 50;
   margin: 0px;
   /* alignItems: 'center', */
@@ -63,21 +63,22 @@
   /* border: '20px', */
 }
 
-.inp {
-  border-radius: 10px;
-  border: transparent;
-  height: 50px;
-  background-color: pink;
-}
-
 .btn2 {
   background-color: pink;
   border-radius: 10px;
   border: transparent;
   height: 50px;
-  width: 50px;
+  width: 75px;
   text-size-adjust: 50;
   margin: 0px;
+}
+
+.inp {
+  border-radius: 10px;
+  border: transparent;
+  height: 50px;
+  background-color: pink;
+  width: 100px;
 }
 
 .form {
