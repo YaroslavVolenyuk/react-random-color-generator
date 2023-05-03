@@ -1,0 +1,87 @@
+.App {
+  /* background-color: currentColor; */
+  background-color: #bababa;
+  margin: 50px;
+  align-items: center;
+  padding: 50px;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+  height: 500px;
+  display: flex;
+
+  /* align-content: center; */
+  /* height: 100px; */
+  /* flex-direction: 'column'; */
+  /* position: 'relative'; */
+}
+
+.App > div {
+  text-align: center;
+  box-shadow: 5px 5px 5px 1px #999999;
+  background-color: rgb(68, 68, 68);
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* display: flex; */
+  /* justify-content: 'center'; */
+}
+
+::placeholder {
+  color: 'black';
+  text-align: center;
+}
+
+.inner {
+  position: absolute;
+  bottom: 0;
+  width: 95%;
+  height: 25%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3%;
+}
+
+.btn {
+  background-color: pink;
+  border-radius: 60px;
+  border: transparent;
+  height: 50px;
+  width: 50px;
+  text-size-adjust: 50;
+  margin: 0px;
+  /* alignItems: 'center', */
+  /* height: '20%', */
+  /* borderRadius: '50px', */
+  /* border: '20px', */
+}
+
+.inp {
+  border-radius: 10px;
+  border: transparent;
+  height: 50px;
+  background-color: pink;
+}
+
+.btn2 {
+  background-color: pink;
+  border-radius: 10px;
+  border: transparent;
+  height: 50px;
+  width: 50px;
+  text-size-adjust: 50;
+  margin: 0px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
