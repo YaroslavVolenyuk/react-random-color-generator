@@ -24,11 +24,11 @@ export default function App() {
   return (
     <div className="App">
       <div style={{ background: color, position: 'relative' }}>
-        Generated Color: {color}
-        <button className="btn" onClick={() => setColor(randomColor)}>
-          Generate
-        </button>
+        Generated Color: {color} <br />
         <div className="inner">
+          <button className="btn" onClick={() => setColor(randomColor)}>
+            Generate
+          </button>
           <form
             className="form"
             onSubmit={(event) => {
